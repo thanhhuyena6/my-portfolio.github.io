@@ -136,7 +136,7 @@ img {
       width: 80%;
       height: 100%;
       padding: 2rem;
-      background: rgba(255, 255, 255, 0.3);
+      background: rgba(0, 0, 0, 0.5);
       transition: 0.5s;
       backdrop-filter: blur(10px);
     }
@@ -567,9 +567,18 @@ img {
   }
 }
 
-@media screen and(max-width: 768px){
-  .about_description{
+@media screen and(max-width: 768px) {
+  .home__title {
+    width: auto;
+    font-size: 20px;
+  }
+
+  .about_description {
     list-style-type: none;
+  }
+
+  .footer__social {
+    text-align: left;
   }
 }
 
